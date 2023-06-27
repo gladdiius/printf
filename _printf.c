@@ -51,7 +51,7 @@ int _printf(const char *format, ...)
 				}
 				z = 2;
 				break;
-			/*case 'd':
+			case 'd':
 				z = 3;
 				d = va_arg(list, int);
 				_putchar2(x);
@@ -72,7 +72,7 @@ int _printf(const char *format, ...)
 					_putchar1('-');
 				}
 				_print_number(d);
-				break;*/
+				break;
 			default:
 				break;
 		}

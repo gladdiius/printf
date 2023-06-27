@@ -6,13 +6,14 @@
  */
 int _printf(const char *format, ...)
 {
-	if (format == NULL)
-		return (-1);
 	int i = 0, z = 0, m = 0;
 	char placeholder = '%';
 	char *x, *str;
 	char y;
 	va_list list;
+
+	if (format == NULL)
+		return (-1);
 
 	while (*(format + i))
 	{

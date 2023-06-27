@@ -6,6 +6,8 @@
  */
 int _printf(const char *format, ...)
 {
+	if (format == NULL)
+		return (-1);
 	int i = 0, z = 0, m = 0;
 	char placeholder = '%';
 	char *x, *str;

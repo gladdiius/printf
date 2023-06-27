@@ -6,7 +6,7 @@
  */
 int _printf(const char *format, ...)
 {
-	int i = 0, z = 0, m = 0;
+	int i = 0, z = 0, m = 0, d;
 	char placeholder = '%';
 	char *x, *str;
 	char y;
